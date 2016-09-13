@@ -121,48 +121,39 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
   <p class="feeds">피드들</p><br> <br>
   <div class="thumbbound">
     <div class="thumbimg"><img class="imgsize" src="suji1.jpg"></div>
-    <div class="thumbtext"><a href="#"> 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일
-     썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일</a></div>
+    <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
     <div class="thumbimg"><img class="imgsize" src="suji2.jpg"></div>
-    <div class="thumbtext"><a href="#"> 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일
-     썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일</a></div>
+    <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
     <div class="thumbimg"><img class="imgsize" src="suji3.jpg"></div>
-    <div class="thumbtext"><a href="#"> 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일
-     썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일</a></div>
+    <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
     <div class="thumbimg"><img class="imgsize" src="suji1.jpg"></div>
-    <div class="thumbtext"><a href="#"> 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일
-     썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일</a></div>
+    <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
     <div class="thumbimg"><img class="imgsize" src="suji2.jpg"></div>
-    <div class="thumbtext"><a href="#"> 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일
-     썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일</a></div>
+    <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
     <div class="thumbimg"><img class="imgsize" src="suji3.jpg"></div>
-    <div class="thumbtext"><a href="#"> 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일
-     썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일</a></div>
+    <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
     <div class="thumbimg"><img class="imgsize" src="suji1.jpg"></div>
-    <div class="thumbtext"><a href="#"> 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일
-     썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일</a></div>
+    <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
     <div class="thumbimg"><img class="imgsize" src="suji2.jpg"></div>
-    <div class="thumbtext"><a href="#"> 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일
-     썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일</a></div>
+    <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
     <div class="thumbimg"><img class="imgsize" src="suji3.jpg"></div>
-    <div class="thumbtext"><a href="#"> 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일
-     썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일 썸네일</a></div>
+    <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
 </section>
 </head>
