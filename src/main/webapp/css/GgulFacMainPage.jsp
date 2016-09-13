@@ -93,7 +93,7 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
 .imgsize{
   width: 326px;
   height: 250px;
-}
+} 
 .thumbtext {
   height: 100px;
   border: 1px solid black;
