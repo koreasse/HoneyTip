@@ -107,10 +107,10 @@ input{
          
         <div class="rightOption">
           <div class="seachBar"><input name=search type=text placeholder="검색어 입력">
-              <a href="#"><img src="searchpicture.png" alt="엑박!!!" width="25"/></a></div>
+              <a href="#"><img src="/HoneyTip/images/searchpicture.png" alt="엑박!!!" width="25"/></a></div>
               
           <div class="userStatus">
-            <a href="#"><img src="option.png" alt="엑박!!!" width="35"/></a>
+            <a href="#"><img src="/HoneyTip/images/option.png" alt="엑박!!!" width="35"/></a>
           </div>
         </div>
         

@@ -107,7 +107,7 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
 <jsp:include page="/Header.jsp"></jsp:include>
 <section class="mainsector">
 	<div class="adform">
-		<div class="video"><img class="videoimg" src="hyoju.jpg"></div>
+		<div class="video"><img class="videoimg" src="/HoneyTip/images/hyoju.jpg"></div>
 		<div class="bestform">
 		  <ul class="bestul">
 		    <li class="besttop">BEST</li>
@@ -120,39 +120,39 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
 	<br> <br>
   <p class="feeds">피드들</p><br> <br>
   <div class="thumbbound">
-    <div class="thumbimg"><img class="imgsize" src="suji1.jpg"></div>
+    <div class="thumbimg"><img class="imgsize" src="/HoneyTip/images/suji1.jpg"></div>
     <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
-    <div class="thumbimg"><img class="imgsize" src="suji2.jpg"></div>
+    <div class="thumbimg"><img class="imgsize" src="/HoneyTip/images/suji2.jpg"></div>
     <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
-    <div class="thumbimg"><img class="imgsize" src="suji3.jpg"></div>
+    <div class="thumbimg"><img class="imgsize" src="/HoneyTip/images/suji3.jpg"></div>
     <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
-    <div class="thumbimg"><img class="imgsize" src="suji1.jpg"></div>
+    <div class="thumbimg"><img class="imgsize" src="/HoneyTip/images/suji1.jpg"></div>
     <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
-    <div class="thumbimg"><img class="imgsize" src="suji2.jpg"></div>
+    <div class="thumbimg"><img class="imgsize" src="/HoneyTip/images/suji2.jpg"></div>
     <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
-    <div class="thumbimg"><img class="imgsize" src="suji3.jpg"></div>
+    <div class="thumbimg"><img class="imgsize" src="/HoneyTip/images/suji3.jpg"></div>
     <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
-    <div class="thumbimg"><img class="imgsize" src="suji1.jpg"></div>
+    <div class="thumbimg"><img class="imgsize" src="/HoneyTip/images/suji1.jpg"></div>
     <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
-    <div class="thumbimg"><img class="imgsize" src="suji2.jpg"></div>
+    <div class="thumbimg"><img class="imgsize" src="/HoneyTip/images/suji2.jpg"></div>
     <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
   <div class="thumbbound">
-    <div class="thumbimg"><img class="imgsize" src="suji3.jpg"></div>
+    <div class="thumbimg"><img class="imgsize" src="/HoneyTip/images/suji3.jpg"></div>
     <div class="thumbtext"><a href="#"> 썸네일 </a></div>
   </div>
 </section>
