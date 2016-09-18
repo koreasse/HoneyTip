@@ -9,3 +9,5 @@ Honey Tip Storage
 16.09.13 철한 + 동수 파일 취합  
 16.09.15 images 폴더 생성, 이미지 파일 저장 및 GgulFacMain.jsp, Header.jsp내 이미지 파일 경로 수정  
 16.09.15 Test about Git Username Apply!  
+16.09.18 GgulFacCloudMainPage.jsp 커밋  
+16.09.18 GgulFacCloudMainPage2.jsp 커밋(기존 파일에서 위치 및 세부 ui 변경)  
