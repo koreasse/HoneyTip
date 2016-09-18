@@ -99,8 +99,10 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
   border: 1px solid black;
   font-size: 30px;
   overflow: hidden;
+  text-align: center;
 }
-.thumbtext > a:hover {background-color: gray;}
+.thumbtext:hover {background-color: #c1c1c1;}
+.thumbtext > a:hover {text-decoration: none;}
 </style>
 </head>
 <body>
