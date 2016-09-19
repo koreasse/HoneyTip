@@ -56,7 +56,7 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
   display: none; position: absolute; background-color:
   #F6C171;width: 283px;height: 70px; right: 0;
 }
-
+ 
 .searchOption div {
   color: black; padding: 0; margin: 3px; text-decoration: none;
 }
@@ -86,7 +86,6 @@ input{
      <nav class="headnav">
        <header class="headheader">
          <ul class="headPageShift">
-           <li class="headlogo">로고</li>
            <li class="headlist"><a href="../css/GgulFacMainPage.jsp">홈</a></li>
            <li class="headlist"><a href="#">인기</a></li>
            <li class="headlist"><a href="#">내 커뮤니티</a></li>
