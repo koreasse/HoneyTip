@@ -35,7 +35,7 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
 
 .mainsector {
   width:1278px;
-  height: auto;
+  height: 500px;
   margin: 0 auto;
 }
 .adform {

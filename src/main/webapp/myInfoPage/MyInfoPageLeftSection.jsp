@@ -33,7 +33,6 @@ td, th{display: table-cell;}
 ul:after{content:" ";display:block;clear:both;}
 body{ font-family:"arial", sans-serif; font-size:12px;}
 /*reset*/
-
 .leftSection {
   background-color: #d9d9d9; width: 250px; height: 1500px; float: left;
   margin: 0px 0px 0px 201px;
@@ -51,11 +50,12 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
 .leftSection > a {text-decoration: none;}
 .leftSection > a:hover {color: white;}
 .myTagAndSearch{
-  font-size: 150%; color: #737373; margin: 250px 0px 35px 30px; line-height: 3em;
+  font-size: 150%; color: #737373; margin: 250px 0px 30px 30px; line-height: 3em;
 }
-.recommandTip {font-size: 160%; margin: 0; height: 500px; width: 250px;}
+
+.recommandTip {font-size: 160%; margin: 0; height: 350px; width: 250px;}
 #recommandTipBanner {
-  margin: 0px 0px 0px 10px; float: left;
+  margin: 0px 0px 10px 10px; float: left;
 }
 .refresh {
   float: right; font-size: 60%; color: orange; width: 50px;
@@ -87,7 +87,6 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
 
 </head>
 <body>
-
 <div class=leftSection>
   <div class= leftSection id= myInfo>
     <img id = "userPhoto" alt="userInfo" src="/HoneyTip/images/userPhoto.png" width="70" height="83px">
@@ -115,6 +114,7 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
   </div>
   <hr color="black" width=99% >
 </div>
+
 
 </body>
 </html>
