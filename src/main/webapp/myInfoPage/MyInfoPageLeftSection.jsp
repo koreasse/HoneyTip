@@ -34,104 +34,54 @@ ul:after{content:" ";display:block;clear:both;}
 body{ font-family:"arial", sans-serif; font-size:12px;}
 /*reset*/
 
-  .leftSection {
-    background-color: #d9d9d9;
-    width: 250px;
-    height: 1500px;
-    float: left;
-    margin: 0px 0px 0px 201px;
-  }
-  
-  #myInfo {
-    background-color: #d9d9d9;
-    height: 150px;
-    margin: 60px 0px 0px 0px;
-    padding: 0px;
-  }
-  
-  #userPhoto {
-    float: left;
-    height: 150px;
-    width: 110px;
-    margin: 0px 0px 20px 0px;
-  }
-  
-  #userID {
-    float: right;
-    font-size: 150%;
-    margin: 15px 0px 0px 0px;
-    width: 100px;
-  }
-  
-  #newHoneyTip{
-    float: right;
-    background-color: orange;
-    font-size: 150%;
-    hight: 40px;
-    width: 100px;
-    margin : 40px 15px 0px 0px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  .leftSection > a {text-decoration: none;}
-  
-  .leftSection > a:hover {
-    color: white;
-  }
-  .myTagAndSearch{
-    font-size: 150%;
-    color: #737373;
-    margin: 250px 0px 35px 30px;
-    line-height: 3em;
-  }
-  
-  .recommandTip {
-    font-size: 160%;
-    margin: 0;
-    height: 500px;
-    width: 250px;
-  }
-  
-  .refresh {
-    float: right;
-    font-size: 60%;
-    color: orange;
-    width: 50px;
-    margin: 0px;
-    font-weight: 900;
-  }
-  .recommandpicture1 {
-    margin: 0;
-    padding: 20px 0px 0px 0px;
-    hight: 40px;
-    width: 80px;
-  }
-  .recommandpicture1_userName {
-    font-size: 70%;
-    float: right;
-    margin: 70px 0px 0px 30px;
-    width: 80px;
-  }
-
-  
-    .recommandpicture2 {
-    float: left;
-    margin: 70px 0px 0px 0px;
-    hight: 40px;
-    width: 80px;
-  }
-  
-  .recommandpicture2_userName {
-    font-size: 70%;
-    float: right;
-    margin: 0px 0px 30px 0px;
-    hight: 20px;
-    width: 80px;
-  }
-#recommandTipBannre {
-  padding: 0px 0px 0px 10px;
+.leftSection {
+  background-color: #d9d9d9; width: 250px; height: 1500px; float: left;
+  margin: 0px 0px 0px 201px;
+}
+#myInfo {
+  background-color: #d9d9d9; height: 150px; margin: 60px 0px 0px 0px;
+  padding: 0px;
+}
+#userPhoto {float: left; height: 150px; width: 110px; margin: 0px 0px 20px 0px;}
+#userID {float: right; font-size: 150%; margin: 15px 0px 0px 0px; width: 100px;}
+#newHoneyTip{
+  float: right; background-color: orange; font-size: 150%; hight: 40px;
+  width: 100px; margin : 40px 15px 0px 0px; border-radius: 10px; text-align: center;
+}
+.leftSection > a {text-decoration: none;}
+.leftSection > a:hover {color: white;}
+.myTagAndSearch{
+  font-size: 150%; color: #737373; margin: 250px 0px 35px 30px; line-height: 3em;
+}
+.recommandTip {font-size: 160%; margin: 0; height: 500px; width: 250px;}
+#recommandTipBanner {
+  margin: 0px 0px 0px 10px; float: left;
+}
+.refresh {
+  float: right; font-size: 60%; color: orange; width: 50px;
+  margin: 0px; margin: 5px 5px 0px 0px; font-weight: 900;
+}
+.recommandpicture1 {
+  margin: 10px 0px 0px 0px; height: 120px; width: 120px; 
   float: left;
+}
+.recommandpicture1 img {
+  height: 120px; width: 120px;
+}
+.recommandpicture1_userName {
+  font-size: 70%; float: left; width: 105px; margin: 10px 0px 0px 0px;
+  height: 60px; padding: 40px 20px 20px 5px; 
+}
+.recommandpicture2 {
+  margin: 10px 0px 0px 0px; height: 120px; width: 120px;
+  float:left;
+}
+.recommandpicture2 img {
+  height: 120px; width: 120px;
+}
+.recommandpicture2_userName {
+  font-size: 70%; float: left; width: 105px;
+  height: 60px;  padding: 40px 20px 20px 5px; margin: 10px 0px 0px 0px;
 }
 </style>
 
@@ -148,37 +98,23 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
       새 꿀팁
     </a></p>
     </div>
-    
     <hr color="black" width=99% >
-    
   </div>
-    <div class="myTagAndSearch">
-      <li>my 태그</li>
-      <li>my 색인</li>
-    </div>
+  <div class="myTagAndSearch">
+    <li>my 태그</li>
+    <li>my 색인</li>
+  </div>
   <hr color="black" width=99% >
-  
   <div class="recommandTip">
-  
-    <h1 id="recommandTipBannre">추천 꿀팁 저장소</h1>
-    <li class="refresh">새로고침</li>
-    <div class="recommandpicture1">
-      <img alt="추천1" src="/HoneyTip/images/userPhoto.png">
-    </div>
-    
-    <li class="recommandpicture1_userName">원지선과 난쟁이들<li>
-    
-    <div class="recommandpicture2">
-      <img alt="추천2" src="/HoneyTip/images/userPhoto.png">
-    </div>
-    <div class="recommandpicture2_userName">
-      류세현과 외동들
-    </div>
-    
+    <h1 id="recommandTipBanner">추천 꿀팁 저장소</h1>
+    <li class="refresh"><a href="#">새로고침</a></li>
+    <div class="recommandpicture1"><img alt="추천1" src="/HoneyTip/images/userPhoto.png"></div>
+    <li class="recommandpicture1_userName">원지선과 난쟁이들</li>
+    <div class="recommandpicture2"><img alt="추천2" src="/HoneyTip/images/userPhoto.png"></div>
+    <div class="recommandpicture2_userName">류세현과 외동들</div>
   </div>
   <hr color="black" width=99% >
 </div>
-
 
 </body>
 </html>
