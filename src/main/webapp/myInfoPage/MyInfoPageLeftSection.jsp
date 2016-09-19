@@ -32,6 +32,7 @@ tr{display: table-row;}
 td, th{display: table-cell;}
 ul:after{content:" ";display:block;clear:both;}
 body{ font-family:"arial", sans-serif; font-size:12px;}
+/*reset*/
 
   .leftSection {
     background-color: #d9d9d9;
@@ -40,24 +41,27 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
     float: left;
     margin: 0px 0px 0px 15px;
   }
+  
   #myInfo {
     background-color: #d9d9d9;
     height: 150px;
     margin: 60px 0px 0px 0px;
     padding: 0px;
-    
   }
+  
   #userPhoto {
     float: left;
     height: 150px;
     width: 110px;
   }
+  
   #userID {
     float: right;
     font-size: 150%;
     margin: 15px 0px 0px 0px;
     width: 100px;
   }
+  
   #newHoneyTip{
     float: right;
     background-color: orange;
