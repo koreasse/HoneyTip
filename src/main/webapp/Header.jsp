@@ -40,16 +40,17 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
   margin: 0 auto; padding: 0; background-color: orange;
   height: 55px; position: fixed; width: 1180px;
 }
+.headPageShift {margin: 0.5px 0px 0px 0px; list-style: none; float: left;}
 .headlogo {
-  margin: 10px; padding: 0px 0px 0px 10px; float: left;
+  margin: 10px 10px 10px 20px; padding: 0; float: left;
   font-size: 25px; font-weight: bold;
   }
-.headPageShift {padding: 2px; list-style: none; float: left;}
+.headlogo a:hover {text-decoration: none;}
 .headlist {margin:15px; float: left; font-size: 15px;}
 .headlist > a:hover {color: white;}
 .headlist > a {text-decoration: none;}
-.rightOption {margin: 10px; padding: 0px 10px 0px 0px; float: right;}
-.seachBar {padding: 5px; float: left;}
+.rightOption {margin: 10px 20px 10px 10px; float: right;}
+.seachBar {margin: 5px; float: left;}
 .searchimg {cursor: pointer;}
 .searchdropdown {position: relative; display: inline-block;}
 .searchOption {
@@ -77,7 +78,16 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
 input{
   font-size: 120%; background-color: #FAE0D4; color: black; width: 250px;
 }
-
+.userStatus{
+  border: 1px solid black; border-radius: 15px; width: 30px; height: 30px;
+  margin: 1px 0px 0px 5px; padding: 0;
+}
+.userStatus .userStatusMargin {margin: 7.5px 4px 0px 4px;}
+.userStatus:hover {background-color: #B5A47D; opacity:.40;}
+.statusBar {
+  border: 1px solid black; width: 16px; height: 2px; margin: 2px auto;
+  background-color:black; border-radius: 2px;
+}
 </style>
 </head>
 <body>
@@ -86,6 +96,7 @@ input{
      <nav class="headnav">
        <header class="headheader">
          <ul class="headPageShift">
+           <li class="headlogo"><a href="/ggulfac/css/GgulFacMainPageT1.jsp">로고</a></li>
            <li class="headlist"><a href="../css/GgulFacMainPage.jsp">홈</a></li>
            <li class="headlist"><a href="#">인기</a></li>
            <li class="headlist"><a href="../myInfoPage/myInfo.jsp">내 커뮤니티</a></li>
@@ -107,9 +118,13 @@ input{
               </a>
             </div>
           </div>
-          <div class="userStatus">
-            <a href="#"><img src="more.png" width="35"/></a>
-          </div>
+          <a class="userStatus" href="#">
+            <div class="userStatusMargin">
+              <div class="statusBar" id="topBar"></div>
+              <div class="statusBar" id="midBar"></div>
+              <div class="statusBar" id="botBar"></div>
+            </div>
+          </a>
         </div>
         
        </header>
