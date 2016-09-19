@@ -39,7 +39,7 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
     width: 250px;
     height: 1500px;
     float: left;
-    margin: 0px 0px 0px 15px;
+    margin: 0px 0px 0px 201px;
   }
   
   #myInfo {
@@ -53,6 +53,7 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
     float: left;
     height: 150px;
     width: 110px;
+    margin: 0px 0px 20px 0px;
   }
   
   #userID {
@@ -84,6 +85,54 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
     margin: 250px 0px 35px 30px;
     line-height: 3em;
   }
+  
+  .recommandTip {
+    font-size: 160%;
+    margin: 0;
+    height: 500px;
+    width: 250px;
+  }
+  
+  .refresh {
+    float: right;
+    font-size: 60%;
+    color: orange;
+    width: 50px;
+    margin: 0px;
+    font-weight: 900;
+  }
+  .recommandpicture1 {
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    hight: 40px;
+    width: 80px;
+  }
+  .recommandpicture1_userName {
+    font-size: 70%;
+    float: right;
+    margin: 70px 0px 0px 30px;
+    width: 80px;
+  }
+
+  
+    .recommandpicture2 {
+    float: left;
+    margin: 70px 0px 0px 0px;
+    hight: 40px;
+    width: 80px;
+  }
+  
+  .recommandpicture2_userName {
+    font-size: 70%;
+    float: right;
+    margin: 0px 0px 30px 0px;
+    hight: 20px;
+    width: 80px;
+  }
+#recommandTipBannre {
+  padding: 0px 0px 0px 10px;
+  float: left;
+}
 </style>
 
 </head>
@@ -107,6 +156,26 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
       <li>my 태그</li>
       <li>my 색인</li>
     </div>
+  <hr color="black" width=99% >
+  
+  <div class="recommandTip">
+  
+    <h1 id="recommandTipBannre">추천 꿀팁 저장소</h1>
+    <li class="refresh">새로고침</li>
+    <div class="recommandpicture1">
+      <img alt="추천1" src="/HoneyTip/images/userPhoto.png">
+    </div>
+    
+    <li class="recommandpicture1_userName">원지선과 난쟁이들<li>
+    
+    <div class="recommandpicture2">
+      <img alt="추천2" src="/HoneyTip/images/userPhoto.png">
+    </div>
+    <div class="recommandpicture2_userName">
+      류세현과 외동들
+    </div>
+    
+  </div>
   <hr color="black" width=99% >
 </div>
 
