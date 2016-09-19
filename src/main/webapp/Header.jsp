@@ -87,13 +87,12 @@ input{
        <header class="headheader">
          <ul class="headPageShift">
            <li class="headlogo">로고</li>
-           <li class="headlist"><a href="/ggulfac/css/home.jsp">홈</a></li>
            <li class="headlist"><a href="../css/GgulFacMainPage.jsp">홈</a></li>
            <li class="headlist"><a href="#">인기</a></li>
            <li class="headlist"><a href="#">내 커뮤니티</a></li>
            <li class="headlist"><a href="../css/GgulFacCloudMainPage2.jsp">cloud</a></li>
          </ul>
-         
+          
         <div class="rightOption">
           <div class="seachBar"><input name=search type=text placeholder="검색어 입력">
             <div class="searchdropdown">
