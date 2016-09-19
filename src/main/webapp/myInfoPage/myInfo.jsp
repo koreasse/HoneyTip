@@ -98,7 +98,7 @@ margin: 0px 0px 0px 451px;
 
 </head>
 
-
+  
 <body>
 <jsp:include page="../Header.jsp"></jsp:include>
 <jsp:include page="/myInfoPage/MyInfoPageLeftSection.jsp"></jsp:include>
