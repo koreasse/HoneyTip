@@ -118,11 +118,12 @@ body {
 #wrap {
   border: 1px solid lightgrey;
 	position: absolute;
-	height: 500px;
+	height: 400px;
 	width: 900px;
 	left: 15%;
 	right: 20%;
-	top: 20%;
+	top: 140%;
+	padding-bottom: 50px;
 }
 
 #drivename {
@@ -218,10 +219,36 @@ tbody tr:hover {
   padding-left: 30px;
   padding-right: 30px;
 }
+
+#container {
+min-height: 100%; 
+position: relative;
+background: #0202F7 url('images/gr.jpg') 0 70px repeat-x;
+}
+
+#header {
+height: 70px;
+background-color: white;
+}
+
+#footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 50px;
+background-color: silver;
+text-align: center;
+font-size: 25px;
+}
+
+
 </style>
 </head>
 <body>
+<div id="container">
+  <header id="header">
 	<jsp:include page="/Header.jsp"></jsp:include>
+  </header>
 	<div id="wrap">
 		<div id="drivename">HoneyDrive</div>
 
@@ -335,7 +362,11 @@ tbody tr:hover {
 		  </table>
 		</section>
 		</div>
+</div>
 		
+	<footer id="footer">
+	<jsp:include page="/Footer.jsp"></jsp:include>
+	</footer>
 		
 		
 </body>
