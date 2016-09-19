@@ -88,7 +88,7 @@ input{
          <ul class="headPageShift">
            <li class="headlist"><a href="../css/GgulFacMainPage.jsp">홈</a></li>
            <li class="headlist"><a href="#">인기</a></li>
-           <li class="headlist"><a href="#">내 커뮤니티</a></li>
+           <li class="headlist"><a href="../myInfoPage/myInfo.jsp">내 커뮤니티</a></li>
            <li class="headlist"><a href="../css/GgulFacCloudMainPage2.jsp">cloud</a></li>
          </ul>
           
