@@ -35,116 +35,47 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
 /*reset*/
 
 .headmain {
-  position: fixed;
-  width: 100%;
-  padding: 0;
-  height: 55px;
-}
-
+   width: 1180px; padding: 0; height: 55px; margin: 0 auto;}
 .headnav {
-  margin: 0 auto;
-  padding: 0;
-  background-color: orange;
-  height: 55px;
-  position: relative;
+  margin: 0 auto; padding: 0; background-color: orange;
+  height: 55px; position: fixed; width: 1180px;
 }
-
 .headlogo {
-  margin: 10px;
-  padding: 0px 0px 0px 150px;
-  float: left;
-  font-size: 25px;
-}
-
-.headPageShift {
-  padding: 2px;
-  list-style: none;
-  float: left;
-}
-
-.headlist {
-  margin:15px;
-  float: left;
-  font-size: 15px;
-}
-
-.headlist > a:hover {
-    color: white;
-}
-
+  margin: 10px; padding: 0px 0px 0px 10px; float: left;
+  font-size: 25px; font-weight: bold;
+  }
+.headPageShift {padding: 2px; list-style: none; float: left;}
+.headlist {margin:15px; float: left; font-size: 15px;}
+.headlist > a:hover {color: white;}
 .headlist > a {text-decoration: none;}
-
-.rightOption {
-  margin: 10px;
-  padding: 0px 150px 0px 0px;
-  float: right;
-}
-
-.seachBar {
-  padding: 5px;
-  float: left;
-}
-
-.searchimg {
-  cursor: pointer;
-}
-.searchdropdown {
-  position: relative;
-  display: inline-block;
-}
+.rightOption {margin: 10px; padding: 0px 10px 0px 0px; float: right;}
+.seachBar {padding: 5px; float: left;}
+.searchimg {cursor: pointer;}
+.searchdropdown {position: relative; display: inline-block;}
 .searchOption {
-  display: none;
-  position: absolute;
-  background-color: #F6C171;
-  width: 283px;
-  height: 70px;
-  right: 0;
+  display: none; position: absolute; background-color:
+  #F6C171;width: 283px;height: 70px; right: 0;
 }
 
 .searchOption div {
-  color: black;
-  padding: 0;
-  margin: 3px;
-  text-decoration: none;
+  color: black; padding: 0; margin: 3px; text-decoration: none;
 }
 
 .op1 {
-  margin: 0;
-  padding: 0;
-  width: 133px;
-  height: 28px;
-  border: 1px solid black;
-  float: left;
-  text-align: center;
-  font-size: 20px;
+  margin: 0; padding: 0; width: 133px; height: 28px; border: 1px solid black;
+  float: left; text-align: center; font-size: 20px;
 }
 
 .op2 {
-  margin: 0;
-  padding: 0;
-  width: 62.5px;
-  height: 24px;
-  border: 1px solid black;
-  float: left;
-  text-align: center;
-  font-size: 16px;
+  margin: 0; padding: 0; width: 62.5px; height: 24px; border: 1px solid black;
+  float: left; text-align: center; font-size: 16px;
 }
 .searchOption a:hover {text-decoration: none;}
 .searchOption > div:hover {background-color: #E69F34;}
-.searchdropdown:hover .searchOption {
-  display: inline;
-}
-
-.userStatus {
-  padding: 0px 0px 0px 30px;
-  float: left;
-}
-
+.searchdropdown:hover .searchOption {display: inline;}
+.userStatus {padding: 0px 0px 0px 30px; float: left;}
 input{
-  font-size: 120%;
-  background-color: #FAE0D4;
-  color: black;
-  width: 250px;
+  font-size: 120%; background-color: #FAE0D4; color: black; width: 250px;
 }
 
 </style>
@@ -154,8 +85,8 @@ input{
    <main class="headmain">
      <nav class="headnav">
        <header class="headheader">
-         <h1 class="headlogo">로고</h1>
          <ul class="headPageShift">
+           <li class="headlogo">로고</li>
            <li class="headlist"><a href="/ggulfac/css/home.jsp">홈</a></li>
            <li class="headlist"><a href="#">인기</a></li>
            <li class="headlist"><a href="#">내 커뮤니티</a></li>
