@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE>
 <html> 
 <head> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -103,6 +103,16 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
 }
 .thumbtext:hover {background-color: #c1c1c1;}
 .thumbtext > a:hover {text-decoration: none;}
+
+#footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 50px;
+background-color: silver;
+text-align: center;
+font-size: 25px;
+}
 </style>
 </head>
 <body>
@@ -159,5 +169,8 @@ body{ font-family:"arial", sans-serif; font-size:12px;}
   </div>
 </section>
 </head>
+<footer id="footer">
+  <jsp:include page="/Footer.jsp"></jsp:include>
+  </footer>
 </body>
 </html>
